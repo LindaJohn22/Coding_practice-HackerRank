@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
+
+        // Write your code here.
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
+
+OUTPUT:
+Test case 0
+Test case 1
+Test case 2
+Test case 3
+Test case 4
+Compiler Message
+Success
+Input (stdin)
+42
+3.1415
+Welcome to HackerRank's Java tutorials!
+Expected Output
+String: Welcome to HackerRank's Java tutorials!
+Double: 3.1415
+Int: 42

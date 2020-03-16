@@ -1,10 +1,13 @@
+//Problem statement: Find the sum of the two integers taken from user
+//Language used: C
+//------------------------------------------------------------------------------
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
 
 int solveMeFirst(int a, int b) {
-    // Hint: Type return a+b; below
 return (a+b);
 }
 
